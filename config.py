@@ -9,7 +9,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002245466708"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -33,7 +33,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002199067552"))
 #your database channel link
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/+0xJoDQ4M3KYyYTFl")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", "6402721511 7023006442"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6402721511"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
