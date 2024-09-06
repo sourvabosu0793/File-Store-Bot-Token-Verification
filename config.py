@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002245466708"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002150024393"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002367729265"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -25,13 +25,13 @@ USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴ�
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", "21100083"))
+APP_ID = int(os.environ.get("APP_ID", "20679071"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "8980ecdc34880454c2e31eec10033f5b")
+API_HASH = os.environ.get("API_HASH", "3d088893c7ff5b84c429eadf6df88ab4")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002199067552"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002281977970"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/hhgrrtyyuijhcsswedmnbvvvf5ygf")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/+rpKu14JSeD8wY2U1")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "6402721511"))
 #port set to default 8080
@@ -46,13 +46,13 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "Sourav00876")
+OWNER_TAG = os.environ.get("OWNER_TAG", "@orriotel")
 #Time in seconds for message delete
-TIME = int(os.environ.get("TIME", "300"))
+TIME = int(os.environ.get("TIME", "600"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002216660895'))
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002383356517'))
 
 #Shortner (token system) 
 """
